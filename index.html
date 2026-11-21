@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="bgVideo" class="video-bg" src="bg.mp4" autoplay loop muted playsinline></video>
+    <audio id="bgMusic" class="music-bg" src="music.mp3" loop></audio>
+
+    <div id="startScreen" class="start-screen">[ Hello Friend, awake! ]</div>
+    
+    <div class="glass-terminal">
+        <div class="system">
+            Last login: Sat Nov 21 09:23:45 2026 from 192.168.1.1<br>
+            [system] System booted successfully.
+        </div>
+        
+        
+        <div class="block">
+            <span class="prompt">root@alderson_loop:~#</span> ask_elliot<br>
+            "How are you? Good question..."
+        </div>
+
+        
+        <div class="block">
+            <span class="prompt">root@alderson_loop:~#</span> whoami<br>
+            Name: [ REDACTED ]<br>
+            Status: Backend & Cybersec enthusiast<br>
+            Base: Linux / Python
+        </div>
+
+
+        <div class="block">
+            <span class="prompt">root@alderson_loop:~#</span> contact<br>
+            <div class="links">
+                <a href="https://t.me/norchdev">[ Telegram ]</a>
+                <a href="https://github.com/norch-sh">[ GitHub ]</a>
+            </div>
+        </div>
+
+
+        <div>
+            <span class="prompt">root@alderson_loop:~#</span> <span class="cursor"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>
