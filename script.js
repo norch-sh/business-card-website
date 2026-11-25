@@ -13,6 +13,6 @@ setTimeout(function() {
 });
 document.addEventListener('click', function() {
     const meow = new Audio('meow.mp3');
-    meow.play();
     meow.volume = 0.6
+    meow.play();
 });
